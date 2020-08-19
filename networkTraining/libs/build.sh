@@ -1,0 +1,1 @@
+g++ -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 -shared decode_block_op.cc -fPIC -I/root/anaconda3/envs/tf1.3-py36/lib/python3.6/site-packages/tensorflow/include -o custom_graphics.so -lz
