@@ -30,7 +30,7 @@ We list the TensorFlow and Python versions, as well as some required packages:
 
 Other packages could be installed via `pip` if needed.
 
-💡 ***Suggestions***: ince we build the training script based on our previous [SketchCNN](https://github.com/Enigma-li/SketchCNN) project, thus we do not upgrade the Tensorflow version. We highly encourage users to use Docker to deploy the corresponding environment.
+💡 ***Suggestions***: since we build the training script based on our previous [SketchCNN](https://github.com/Enigma-li/SketchCNN) project, thus we do not upgrade the Tensorflow version. We highly encourage users to use Docker to deploy the corresponding environment.
 
 ### Install
 
