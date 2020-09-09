@@ -2,7 +2,7 @@
 ![](docs/teaser.png)
 
 ## Introduction
-This repository contains the implementation of [Sktech2CAD](TODO: link to project page) proposed in our SIGGRAPH Asia 2020 paper.
+This repository contains the implementation of [Sktech2CAD](http://geometry.cs.ucl.ac.uk/projects/2020/sketch2cad/) proposed in our SIGGRAPH Asia 2020 paper.
 * **Sketch2CAD: Sequential CAD Modeling by Sketching in Context**<br/>
 By [Changjian Li](https://enigma-li.github.io/), [Hao Pan](http://haopan.github.io/), [Adrien Bousseau](http://www-sop.inria.fr/members/Adrien.Bousseau/), [Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/),<br/>
 *ACM Trans. Graphics, 39(6), 2020, proceedings of SIGGRAPH Asia 2020.*
