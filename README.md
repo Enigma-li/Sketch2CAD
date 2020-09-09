@@ -22,13 +22,13 @@ This part contains the code for deploying the trained network in a C++ project t
 Please read the README file in *dataAndModel* folder for more details.
 
 ### Prototype System
-We released the prototype system for research use, feel free to download and try it. More instructions to download it, please refer to the [project page](TODO: link to the project page). 
+We released the prototype system for research use, feel free to download and try it. More instructions to download it, please refer to the [project page](http://geometry.cs.ucl.ac.uk/projects/2020/sketch2cad/).
 
 ## Citation
 If you use our code or model, please cite our paper:
  
- TODO: fill the citation info.
-
+ Bibtex coming soon ...
+ 
 ## Contact
 Any question you could contact Changjian Li (chjili2011@gmail.com) or Hao Pan (haopan@microsoft.com) for help.
 
