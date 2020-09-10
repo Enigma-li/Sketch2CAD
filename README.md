@@ -27,18 +27,18 @@ We released the prototype system for research use, feel free to download and try
 ## Citation
 If you use our code or model, please cite our paper:
 
- @Article{Li:2020:Sketch2CAD, 
-	    Title = {Sketch2CAD: Sequential CAD Modeling by Sketching in Context}, 
-	    Author = {Changjian Li and Hao Pan and Adrien Bousseau and Niloy J. Mitra}, 
-	    Journal = {ACM Trans. Graph. (Proceedings of SIGGRAPH Asia 2020)}, 
-	    Year = {2020}, 
-	    Number = {6}, 
-	    Volume = {39},
-	    Pages={164:1--164:14},
-	    numpages = {14},
-	    DOI={https://doi.org/10.1145/3414685.3417807},
-	    Publisher = {ACM} 
- }
+ 	@Article{Li:2020:Sketch2CAD, 
+		Title = {Sketch2CAD: Sequential CAD Modeling by Sketching in Context}, 
+	    	Author = {Changjian Li and Hao Pan and Adrien Bousseau and Niloy J. Mitra}, 
+	    	Journal = {ACM Trans. Graph. (Proceedings of SIGGRAPH Asia 2020)}, 
+	    	Year = {2020}, 
+	    	Number = {6}, 
+	    	Volume = {39},
+	    	Pages = {164:1--164:14},
+	    	numpages = {14},
+	    	DOI = {https://doi.org/10.1145/3414685.3417807},
+	    	Publisher = {ACM} 
+ 	}
  
  
 ## Contact
