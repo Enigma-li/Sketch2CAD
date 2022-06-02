@@ -12,6 +12,9 @@ It contains two parts: 1) **network training**, 2) **training dataset** and **tr
 The code is released under the MIT license.
 
 ### Network training
+
+💡 ***Great News***: we have released the docker image for network training, which will greatly reduce the configuration burden, please check the *networkTraining* folder for more details.
+
 This part contains the **Python** code for building, training and testing the nueral network using [TensorFlow](https://www.tensorflow.org/). 
 
 Please read README file within the *networkTraining* folder for more details.

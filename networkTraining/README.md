@@ -7,9 +7,8 @@ Clone the repository and enter the network training part:
     git clone https://github.com/Enigma-li/Sketch2CAD.git
     cd networkTraining
 
-There are four sub-folders under the training project root ***network*** folder.
+There are three sub-folders under the training project root ***network*** folder.
 * *libs* folder contains the custom training data decoder implemented in C++ and imported as custom ops in TensorFLow framework.
-* *data* contains the instructions to download training, evaluation and testing data in TFRecords format.
 * *script* folder contains the network building, data loading, training and testing scripts.
 * *utils* folder contains the utility functions.
 
@@ -17,6 +16,8 @@ There are four sub-folders under the training project root ***network*** folder.
 ## Installation
 
 To install the training script, please first check the system and packages requirements.
+
+💡 ***Great News***: instead of configuring the environment, you can simply download and load the [docker image](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/changjli_connect_hku_hk/EmdzfZQViKhDjfKVdnYIx9YB4zywEH9_X8oHiOzsFox5UQ?e=Cu8U3U) 
 
 ### System requirement
 
@@ -29,8 +30,6 @@ We list the TensorFlow and Python versions, as well as some required packages:
   * opencv-python - `pip install opencv-python`
 
 Other packages could be installed via `pip` if needed.
-
-💡 ***Suggestions***: since we build the training script based on our previous [SketchCNN](https://github.com/Enigma-li/SketchCNN) project, thus we do not upgrade the Tensorflow version. We highly encourage users to use Docker to deploy the corresponding environment.
 
 ### Install
 
@@ -64,8 +63,8 @@ We show one example below for addSub operator training:
       --outDir OUTDIR    	output directory
       --nb_gpus NB_GPUS  	GPU number
       --devices DEVICES  	GPU device indices
-	  --ckpt CKPT        	checkpoint path
-	  --cnt CNT          	continue training flag
+	    --ckpt CKPT        	checkpoint path
+	    --cnt CNT          	continue training flag
       --rootFt ROOTFT    	root feature size
 
 💡Here, 
