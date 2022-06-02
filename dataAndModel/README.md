@@ -24,5 +24,6 @@ To deploy the trained network in C++ project in Windows, users must compile and 
 💡💡💡 ***Tips***:
 * We provide the frozen network where you could find the sample configuration files containing the input/output nodes, channel numbers and so on, just try it.
 * The first network forward pass would be time-consuming (about 2s on 1080Ti GPU) because of the initialization of GPU and CUDA settings. So after loading the network, please first execute the `warmup` step, all other forward passes after this `warmup` would be fast, i.e., 70ms.
-* Compiling and building TensorFlow from source under Windows is time consuming (*over 2 hours*), we use **Visual Studio 2015** to build **TensorFlow 1.3**, which works for us, other configurations are **not tested**. Download the pre-built Tensorflow 1.3 from the [link](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/changjli_connect_hku_hk/ErhAHO3B_PtIl3r_4Y6rANsB6asMMI2RRjAXkm0qiZz8Fw?e=KLNd46).
+* Compiling and building TensorFlow from source under Windows is time consuming (*over 2 hours*), we use **Visual Studio 2015** to build **TensorFlow 1.3**, which works for us, other configurations are **not tested**. 
+* Download the pre-built Tensorflow 1.3 from the [link](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/changjli_connect_hku_hk/ErhAHO3B_PtIl3r_4Y6rANsB6asMMI2RRjAXkm0qiZz8Fw?e=KLNd46).
 
