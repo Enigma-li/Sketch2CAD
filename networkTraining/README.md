@@ -21,10 +21,12 @@ To install the training script, please first check the system and packages requi
 
 ### System requirement
 
-We list the TensorFlow and Python versions, as well as some required packages:
+We list the CUDA, cuDNN, TensorFlow and Python versions, as well as some required packages:
 
-* Our TensorFlow version is ***1.3.0***, other versions are not tested
-* Our Python version is ***3.6***, other versions are note tested
+* CUDA: 8.0
+* cuDNN: 6
+* TensorFlow version is ***1.3.0***, other versions are not tested
+* Python version is ***3.6***, other versions are note tested
 * To implement the custom data decoder and monitor the training process, we require some additional packages installed:
   * Zlib - `sudo apt-get install zlib1g-dev`
   * opencv-python - `pip install opencv-python`
